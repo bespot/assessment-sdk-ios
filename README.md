@@ -37,7 +37,7 @@ target '[Your app]' do
 
   end
   ```
- 2. Run `pod update` for the Cocoapods to download the _BTAssessmentSDK_ dependency. When you are prompted, insert the **provided** credentials (username & password) to authenticate with _GitLab_.
+ 2. Run `pod update` for the Cocoapods to download the _BTAssessmentSDK_ dependency.
  3. Run `pod install`
   ## **Usage example**
   ___
