@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Yui1RAegXEaEFTh9TrZPQjqbAVQ=
+		h3UGzSKt8CtAXnCXBtXnO7pnpuc=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hws7MlvEyySMpLU4wDcbawo3oAE=
+		vspm1NBHhJLI0OQVvIwG3JTERTs=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RxFGlaYD6IvnAPeseSbpCOnOTZI=
+		ZqNcFxAdZnIzxK2nqLK2IBiU7Zc=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		hws7MlvEyySMpLU4wDcbawo3oAE=
+		vspm1NBHhJLI0OQVvIwG3JTERTs=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		RxFGlaYD6IvnAPeseSbpCOnOTZI=
+		ZqNcFxAdZnIzxK2nqLK2IBiU7Zc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HDA5yd/XKMc94C58f8pja80u/vBOtbasj+hbr9PobhQ=
+			R2hMaZvpk7wCgSQp1diFll9exGLVKi+xm7DfE1aYU74=
 			</data>
 		</dict>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WFG6JTtwsaV8/RXPuiTZ6aLIAnb/wtWMMePn/Ddd9jY=
+			uItfnIh7rG70LmFrnFQh+ZkJI+hoWZM5h0kmTySLKFw=
 			</data>
 		</dict>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HDA5yd/XKMc94C58f8pja80u/vBOtbasj+hbr9PobhQ=
+			R2hMaZvpk7wCgSQp1diFll9exGLVKi+xm7DfE1aYU74=
 			</data>
 		</dict>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WFG6JTtwsaV8/RXPuiTZ6aLIAnb/wtWMMePn/Ddd9jY=
+			uItfnIh7rG70LmFrnFQh+ZkJI+hoWZM5h0kmTySLKFw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
