@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sA3aAM85NS63NsifQzU+WOi6SF4=
+		Lb3UlsD1ccLFQAJkIEE2Vm8lgaU=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZqNcFxAdZnIzxK2nqLK2IBiU7Zc=
+		/vBBagIM5jsdRTOvCUotDiSs24o=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ZqNcFxAdZnIzxK2nqLK2IBiU7Zc=
+		/vBBagIM5jsdRTOvCUotDiSs24o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -64,7 +64,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uItfnIh7rG70LmFrnFQh+ZkJI+hoWZM5h0kmTySLKFw=
+			hHnRsufAAiZd7+gethcCCMb6qUT8lSjGPpcU6c1v9iE=
 			</data>
 		</dict>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftdoc</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uItfnIh7rG70LmFrnFQh+ZkJI+hoWZM5h0kmTySLKFw=
+			hHnRsufAAiZd7+gethcCCMb6qUT8lSjGPpcU6c1v9iE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
