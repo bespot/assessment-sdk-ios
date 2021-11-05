@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hjb-88-jbg">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -28,7 +29,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WdS-Rh-fbv">
-                                                    <rect key="frame" x="5" y="5" width="379" height="70"/>
+                                                    <rect key="frame" x="16" y="5" width="380" height="70"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yaf-fK-dYi">
                                                             <rect key="frame" x="0.0" y="0.0" width="15" height="70"/>
@@ -38,7 +39,7 @@
                                                             </constraints>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maa-rF-9w6">
-                                                            <rect key="frame" x="25" y="0.0" width="335" height="70"/>
+                                                            <rect key="frame" x="25" y="0.0" width="345" height="70"/>
                                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -52,13 +53,13 @@
                                                         <constraint firstItem="maa-rF-9w6" firstAttribute="leading" secondItem="Yaf-fK-dYi" secondAttribute="trailing" constant="10" id="cMa-OE-O6R"/>
                                                         <constraint firstAttribute="bottom" secondItem="maa-rF-9w6" secondAttribute="bottom" id="fFp-JC-HmF"/>
                                                         <constraint firstItem="Yaf-fK-dYi" firstAttribute="top" secondItem="WdS-Rh-fbv" secondAttribute="top" id="q2l-kJ-eJo"/>
-                                                        <constraint firstAttribute="trailing" secondItem="maa-rF-9w6" secondAttribute="trailing" constant="19" id="sPY-PK-aLY"/>
+                                                        <constraint firstAttribute="trailing" secondItem="maa-rF-9w6" secondAttribute="trailing" constant="10" id="sPY-PK-aLY"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="WdS-Rh-fbv" secondAttribute="trailing" constant="30" id="BSt-Qh-YLL"/>
-                                                <constraint firstItem="WdS-Rh-fbv" firstAttribute="leading" secondItem="3pi-6d-RG3" secondAttribute="leading" constant="5" id="CbB-1f-BBi"/>
+                                                <constraint firstAttribute="trailing" secondItem="WdS-Rh-fbv" secondAttribute="trailing" constant="18" id="BSt-Qh-YLL"/>
+                                                <constraint firstItem="WdS-Rh-fbv" firstAttribute="leading" secondItem="3pi-6d-RG3" secondAttribute="leading" constant="16" id="CbB-1f-BBi"/>
                                                 <constraint firstItem="WdS-Rh-fbv" firstAttribute="top" secondItem="3pi-6d-RG3" secondAttribute="top" constant="5" id="bYX-yd-CyA"/>
                                                 <constraint firstAttribute="bottom" secondItem="WdS-Rh-fbv" secondAttribute="bottom" constant="5" id="vrJ-u1-Qh1"/>
                                             </constraints>
