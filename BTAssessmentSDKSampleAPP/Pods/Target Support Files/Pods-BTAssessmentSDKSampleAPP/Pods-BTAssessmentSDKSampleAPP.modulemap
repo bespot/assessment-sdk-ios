@@ -1,0 +1,6 @@
+framework module Pods_BTAssessmentSDKSampleAPP {
+  umbrella header "Pods-BTAssessmentSDKSampleAPP-umbrella.h"
+
+  export *
+  module * { export * }
+}
