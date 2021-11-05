@@ -1,0 +1,6 @@
+framework module BTAssessmentSDK {
+  umbrella header "BTAssessmentSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+framework module BTAssessmentSDK {
+  umbrella header "BTAssessmentSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module BTAssessmentSDK.Swift {
+    header "BTAssessmentSDK-Swift.h"
+    requires objc
+}
