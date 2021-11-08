@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BTAssessmentSDK-Swift.h</key>
 		<data>
-		yih68OJ8hLzOrQo3SLte/CI8Se4=
+		fcPtJF/QKRe5B5GpKp/4V5pn8w4=
 		</data>
 		<key>Headers/BTAssessmentSDK.h</key>
 		<data>
@@ -14,23 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Lb3UlsD1ccLFQAJkIEE2Vm8lgaU=
+		QT/m/riIeHqFWf0BRHX0J+ILC+s=
 		</data>
-		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/BTAssessmentSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		vspm1NBHhJLI0OQVvIwG3JTERTs=
+		yTXqcUGwBdvN6N29ZigZECpm/u8=
 		</data>
-		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/BTAssessmentSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		/vBBagIM5jsdRTOvCUotDiSs24o=
+		yTXqcUGwBdvN6N29ZigZECpm/u8=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		VoNR4qv1VTWCqOdLjlc6gBiyLIk=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<data>
+		VoNR4qv1VTWCqOdLjlc6gBiyLIk=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		ncNLLn51dKY/3Te6Ac1Cf47BT7U=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		RLYZoEX+R16SrZp6I6IdndbvcL8=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		vspm1NBHhJLI0OQVvIwG3JTERTs=
+		ncNLLn51dKY/3Te6Ac1Cf47BT7U=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		/vBBagIM5jsdRTOvCUotDiSs24o=
+		RLYZoEX+R16SrZp6I6IdndbvcL8=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		UK6xrotZpddhGgJMutNReDAhanI=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		qRIVy6mrTNNWW8O4zWCGg2G3QVk=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		UK6xrotZpddhGgJMutNReDAhanI=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		qRIVy6mrTNNWW8O4zWCGg2G3QVk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kt1ehlvyk2G8WxMYplXO1Fn05mqDSgUP9nXz94q5OuM=
+			f1PqmkHISXDy0VdMmcUe1gmUVJZyrlb9K7Fj03FMess=
 			</data>
 		</dict>
 		<key>Headers/BTAssessmentSDK.h</key>
@@ -53,32 +85,88 @@
 			OphvEcMJTn2jFJC8lFhv6Z68/LH9jxroaonAkzRQ+EI=
 			</data>
 		</dict>
-		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/BTAssessmentSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R2hMaZvpk7wCgSQp1diFll9exGLVKi+xm7DfE1aYU74=
+			soRT+pMiTNWs5ZsNIRnl/IIdbMV/SnsdnYRduXsw4tU=
 			</data>
 		</dict>
-		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/BTAssessmentSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hHnRsufAAiZd7+gethcCCMb6qUT8lSjGPpcU6c1v9iE=
+			soRT+pMiTNWs5ZsNIRnl/IIdbMV/SnsdnYRduXsw4tU=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/PTqWslww3lJMQa+O+yaO4PjB6PJuaa+u7HTUSRNX4k=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/PTqWslww3lJMQa+O+yaO4PjB6PJuaa+u7HTUSRNX4k=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KEu+OBaRpjzWxrsIrQZy3degtSMQtGjOwBFyliubBs4=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			noPbjb5LjYD4jLXhPe1Zwt1SNX/p9QSC/4axW5B2w6I=
 			</data>
 		</dict>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R2hMaZvpk7wCgSQp1diFll9exGLVKi+xm7DfE1aYU74=
+			KEu+OBaRpjzWxrsIrQZy3degtSMQtGjOwBFyliubBs4=
 			</data>
 		</dict>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hHnRsufAAiZd7+gethcCCMb6qUT8lSjGPpcU6c1v9iE=
+			noPbjb5LjYD4jLXhPe1Zwt1SNX/p9QSC/4axW5B2w6I=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eYGUl3fYl1C1V1v5+hwgCSNMaFEj4jY9c+2UErdNHsM=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mC7C7qYkf1V5e0Oos2AS9F+MiXftsYO38+Lr1cZWiLY=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eYGUl3fYl1C1V1v5+hwgCSNMaFEj4jY9c+2UErdNHsM=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mC7C7qYkf1V5e0Oos2AS9F+MiXftsYO38+Lr1cZWiLY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
