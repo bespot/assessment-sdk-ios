@@ -32,7 +32,7 @@ target '[Your app]' do
   user_frameworks!
 
   # BTAssessmentSDK framework
-  pod 'BTAssessmentSDK', :git => 'https://github.com/bespot/assessment-sdk-ios', :tag => '1.0.0'
+  pod 'BTAssessmentSDK', :git => 'https://github.com/bespot/assessment-sdk-ios', :tag => '1.0.2'
 
   # Other Cocoapods libraries/frameworks you may use...
 
@@ -52,13 +52,17 @@ Do the framework import:
 ```swift
   import BTAssessmentSDK
 ```
+in your application's AppDelegate `application(_:didFinishLaunchingWithOptions:)` method add this line to init/configure the BTAssessmentSDK singleton object:
+```swift
+BTAssessmentSDK.shared.configure(applicationId: "your_app_id", applicationSecret: "your_app_secret")
+```
 
 ### Use the `BTInOutDelegate` delegate to receive InOut updates
 
 In your view controller's `viewDidLoad()` method add this:
 
 ```swift
-BTAssessmentSDK.shared.delegate = self
+BTAssessmentSDK.shared.inOutDelegate = self
 ```
 
 Extend your view controller to implement delegate method:
@@ -73,6 +77,28 @@ extension YourViewController: BTInOutDelegate {
     func didFailUpdate(error: BTError) {
       // TODO: Inspect possible errors  
     }
+}
+```
+### Use the `BTConfigurationDelegate` delegate to check your credentials
+
+In your view controller's `viewDidLoad()` method add this:
+
+```swift
+BTAssessmentSDK.shared.configurationDelegate = self
+```
+
+Extend your view controller to implement delegate method:
+
+```swift
+extension YourViewController: BTConfigurationDelegate {
+
+  func didConfigure(success: Bool) {
+    // TODO: Use success status
+   }
+
+  func didFailConfigure(error: BTConfigurationError) {
+    // TODO: Inspect possible errors
+   }
 }
 ```
 
