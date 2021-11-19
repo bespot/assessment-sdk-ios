@@ -62,7 +62,7 @@ BTAssessmentSDK.shared.configure(applicationId: "your_app_id", applicationSecret
 In your view controller's `viewDidLoad()` method add this:
 
 ```swift
-BTAssessmentSDK.shared.delegate = self
+BTAssessmentSDK.shared.inOutDelegate = self
 ```
 
 Extend your view controller to implement delegate method:
@@ -84,7 +84,7 @@ extension YourViewController: BTInOutDelegate {
 In your view controller's `viewDidLoad()` method add this:
 
 ```swift
-BTAssessmentSDK.shared.delegate = self
+BTAssessmentSDK.shared.configurationDelegate = self
 ```
 
 Extend your view controller to implement delegate method:
