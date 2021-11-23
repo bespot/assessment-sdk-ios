@@ -6,14 +6,25 @@
 //
 
 import UIKit
+import BTAssessmentSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+    private let kApplicationId = "assessment-ios"
+    private let kApplicationSecret = "hg34kl@t87#klm"
+    public var isAuthenticated: Bool = false
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Set the BTAssessmentSDK InOut delegate
+        BTAssessmentSDK.shared.configurationDelegate = self
+        
+        // [BTAssessmentSDK] Init and configure
+        BTAssessmentSDK.shared.configure(applicationId: kApplicationId, applicationSecret: kApplicationSecret)
+        
         return true
     }
 
@@ -32,5 +43,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+extension AppDelegate: BTConfigurationDelegate {
+    
+    func didConfigure(success: Bool) {
+        
+        if success {
+            isAuthenticated = true
+            print("Authentication was successful!")
+        } else {
+            isAuthenticated = false
+            print("Authentication failed.")
+        }
+    }
+    
+    func didFailConfigure(error: BTConfigurationError) {
+        print(error.rawValue)
+    }
+    
 }
 

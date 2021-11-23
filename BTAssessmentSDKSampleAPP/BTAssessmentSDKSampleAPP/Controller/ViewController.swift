@@ -11,20 +11,43 @@ import BTAssessmentSDK
 class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-
-    /// Random status
+    @IBOutlet weak var subscribeButton: UIButton!
+    
+    /// Keep current random status in separate variable
     var randomStatus: BTStatus!
+    /// An array from BTStatus objects keeping historical values of inout status
     private var statusHistory: [BTStatus] = []
+    
+    // Get a reference to the app delegate
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
+        // Enable/disable the subscribe button based on our status
+        subscribeButtonConfiguration()
+        
+        // Set the UITableView delegate
         tableView.delegate = self
+        // Set the UITableView dataSource
         tableView.dataSource = self
         
-        BTAssessmentSDK.shared.delegate = self
+        // Set the BTAssessmentSDK InOut delegate
+        BTAssessmentSDK.shared.inOutDelegate = self
         
+    }
+    
+    fileprivate func subscribeButtonConfiguration() {
+        let isAuthenticatedSuccessful = appDelegate.isAuthenticated
+        
+        if isAuthenticatedSuccessful {
+            // Enable the user interaction
+            self.subscribeButton.isUserInteractionEnabled = true
+        } else {
+            self.subscribeButton.backgroundColor = .systemGray
+            // Disable the user interaction
+            self.subscribeButton.isUserInteractionEnabled = false
+        }
     }
 
     @IBAction func subscribeOrUnsubscribe(_ sender: UIButton) {
@@ -59,8 +82,10 @@ extension ViewController: BTInOutDelegate {
                 randomStatus = status
             }
             
-            
+            // Insert status object to history array
             self.statusHistory.insert(randomStatus, at: 0)
+            
+            // Update table view
             self.tableView.reloadData()
         }
         
