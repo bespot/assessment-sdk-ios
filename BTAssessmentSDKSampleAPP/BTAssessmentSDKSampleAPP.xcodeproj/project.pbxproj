@@ -18,7 +18,7 @@
 		5321A7A4270B4983003F549A /* BTAssessmentSDKSampleAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321A7A3270B4983003F549A /* BTAssessmentSDKSampleAPPTests.swift */; };
 		5321A7AF270B4983003F549A /* BTAssessmentSDKSampleAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321A7AE270B4983003F549A /* BTAssessmentSDKSampleAPPUITests.swift */; };
 		665B5AEF264CCE59970EA36F /* Pods_BTAssessmentSDKSampleAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5D5ABCE6C3612013B19EBC /* Pods_BTAssessmentSDKSampleAPP.framework */; };
-		846D2B8D1ECB90219C937B50 /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADED6B1BF8B47C4830EB4853 /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework */; };
+		AD4A361F5DCB3AE87366A7BF /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C359C7EED19D08B0163A10 /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +58,9 @@
 		5321A7AE270B4983003F549A /* BTAssessmentSDKSampleAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTAssessmentSDKSampleAPPUITests.swift; sourceTree = "<group>"; };
 		5321A7B0270B4983003F549A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6275D2797658173D9EA1B7C3 /* Pods-BTAssessmentSDKSampleAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTAssessmentSDKSampleAPPTests.release.xcconfig"; path = "Target Support Files/Pods-BTAssessmentSDKSampleAPPTests/Pods-BTAssessmentSDKSampleAPPTests.release.xcconfig"; sourceTree = "<group>"; };
+		62C359C7EED19D08B0163A10 /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBFE797AF7F7860C6FB6F89 /* Pods-BTAssessmentSDKSampleAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTAssessmentSDKSampleAPP.debug.xcconfig"; path = "Target Support Files/Pods-BTAssessmentSDKSampleAPP/Pods-BTAssessmentSDKSampleAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		8856C830A5384BD06D9DC767 /* Pods-BTAssessmentSDKSampleAPP-BTAssessmentSDKSampleAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTAssessmentSDKSampleAPP-BTAssessmentSDKSampleAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-BTAssessmentSDKSampleAPP-BTAssessmentSDKSampleAPPUITests/Pods-BTAssessmentSDKSampleAPP-BTAssessmentSDKSampleAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
-		ADED6B1BF8B47C4830EB4853 /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF03BDCD771E34AC043CE71 /* Pods_BTAssessmentSDKSampleAPPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTAssessmentSDKSampleAPPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF79A94A87C28A618A99B325 /* Pods-BTAssessmentSDKSampleAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTAssessmentSDKSampleAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-BTAssessmentSDKSampleAPPUITests/Pods-BTAssessmentSDKSampleAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D03B0CF67AFB8C5D60809B34 /* Pods-BTAssessmentSDKSampleAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTAssessmentSDKSampleAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-BTAssessmentSDKSampleAPPTests/Pods-BTAssessmentSDKSampleAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,13 +88,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846D2B8D1ECB90219C937B50 /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework in Frameworks */,
+				AD4A361F5DCB3AE87366A7BF /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09EB1F6027452AB900D134F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		530053012714350A00724966 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,13 +116,6 @@
 				53005304271435C600724966 /* InOutCell.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		530053032714352700724966 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		5321A780270B4981003F549A = {
@@ -143,7 +143,7 @@
 		5321A78B270B4981003F549A /* BTAssessmentSDKSampleAPP */ = {
 			isa = PBXGroup;
 			children = (
-				530053032714352700724966 /* Model */,
+				09EB1F6027452AB900D134F0 /* Model */,
 				530053022714351C00724966 /* View */,
 				530053012714350A00724966 /* Controller */,
 				5321A78C270B4981003F549A /* AppDelegate.swift */,
@@ -194,7 +194,7 @@
 			children = (
 				1A5D5ABCE6C3612013B19EBC /* Pods_BTAssessmentSDKSampleAPP.framework */,
 				BEF03BDCD771E34AC043CE71 /* Pods_BTAssessmentSDKSampleAPPTests.framework */,
-				ADED6B1BF8B47C4830EB4853 /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework */,
+				62C359C7EED19D08B0163A10 /* Pods_BTAssessmentSDKSampleAPP_BTAssessmentSDKSampleAPPUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -248,7 +248,7 @@
 				5321A7A6270B4983003F549A /* Sources */,
 				5321A7A7270B4983003F549A /* Frameworks */,
 				5321A7A8270B4983003F549A /* Resources */,
-				A56978C0C071AFF7B5E39338 /* [CP] Embed Pods Frameworks */,
+				9E27D272CB90CFFC7ECE5A6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -330,7 +330,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A56978C0C071AFF7B5E39338 /* [CP] Embed Pods Frameworks */ = {
+		9E27D272CB90CFFC7ECE5A6E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -625,7 +625,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bespot.assessment-sdk.BTAssessmentSDKSampleAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -646,7 +646,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bespot.assessment-sdk.BTAssessmentSDKSampleAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

@@ -5,10 +5,10 @@ platform :ios, '13.0'
 use_frameworks!
 
 target 'BTAssessmentSDKSampleAPP' do
-  
-  #pod 'BTAssessmentSDK', :path => "../BTAssessmentSDK/"
-  pod 'BTAssessmentSDK', :git => 'https://github.com/bespot/assessment-sdk-ios', :tag => '1.0.0'
-  
+
+  # pod 'BTAssessmentSDK', :path => "../BTAssessmentSDK/"
+  pod 'BTAssessmentSDK', :git => 'https://github.com/bespot/assessment-sdk-ios', :tag => '1.0.2'
+
   # Pods for BTAssessmentSDKSampleAPP
 
   target 'BTAssessmentSDKSampleAPPTests' do
@@ -21,4 +21,3 @@ target 'BTAssessmentSDKSampleAPP' do
   end
 
 end
-
