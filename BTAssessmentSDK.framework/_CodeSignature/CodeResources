@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BTAssessmentSDK-Swift.h</key>
 		<data>
-		yih68OJ8hLzOrQo3SLte/CI8Se4=
+		/PCNsdH5mZJ+yHN+MfA3goyun+k=
 		</data>
 		<key>Headers/BTAssessmentSDK.h</key>
 		<data>
@@ -14,23 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gcFMPQiuDv5046WvmdRun8uKcGk=
+		/8lNkN2+nJfStWxnoYwid1nUMLE=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		z+kiek73ZpIwGfs2VjIQ1AdAAL8=
+		goqmbMAjOekLHTKBJvtQn36pwUw=
+		</data>
+		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		NOZdK9DXfVgMyJCFwWw/kDqrWtU=
 		</data>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vk1KgfPltZQHVhx9Ov+OKpewPME=
-		</data>
-		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		z+kiek73ZpIwGfs2VjIQ1AdAAL8=
-		</data>
-		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		vk1KgfPltZQHVhx9Ov+OKpewPME=
+		6fKhS0RRv68duJVPY/jTNMTavZM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kt1ehlvyk2G8WxMYplXO1Fn05mqDSgUP9nXz94q5OuM=
+			YpYKvuzcx+sT+OUPaGVd1SOdI5cT7+cAgTld+cNyM6I=
 			</data>
 		</dict>
 		<key>Headers/BTAssessmentSDK.h</key>
@@ -57,28 +53,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6l/HdPx7ClGTXw+bh82GspYKtDGi2AlLyMjX4K3wyM8=
+			QEGtPCiSXsRjYINA0StKaTSN0F2SSSrMau9hmBho1os=
+			</data>
+		</dict>
+		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oMi5RgBPLEkyscbDB47KUl2tVfjbHbgvUbrGZqrRgVU=
 			</data>
 		</dict>
 		<key>Modules/BTAssessmentSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JUEIzzVJ3kTtoBybZjO2sagG0Yb1ns7lgzcjzTmFvjk=
-			</data>
-		</dict>
-		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6l/HdPx7ClGTXw+bh82GspYKtDGi2AlLyMjX4K3wyM8=
-			</data>
-		</dict>
-		<key>Modules/BTAssessmentSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JUEIzzVJ3kTtoBybZjO2sagG0Yb1ns7lgzcjzTmFvjk=
+			GZZ7VAyjgWsx5h4ROiP4HnULWx0myVUZbbGCimyzQyI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
