@@ -1,22 +1,22 @@
 PODS:
-  - BTAssessmentSDK (1.0.2)
+  - BTAssessmentSDK (1.0.3)
 
 DEPENDENCIES:
-  - BTAssessmentSDK (from `https://github.com/bespot/assessment-sdk-ios`, tag `1.0.2`)
+  - BTAssessmentSDK (from `https://github.com/bespot/assessment-sdk-ios`, tag `1.0.3`)
 
 EXTERNAL SOURCES:
   BTAssessmentSDK:
     :git: https://github.com/bespot/assessment-sdk-ios
-    :tag: 1.0.2
+    :tag: 1.0.3
 
 CHECKOUT OPTIONS:
   BTAssessmentSDK:
     :git: https://github.com/bespot/assessment-sdk-ios
-    :tag: 1.0.2
+    :tag: 1.0.3
 
 SPEC CHECKSUMS:
-  BTAssessmentSDK: 7100537bb530965f7530bc9f92bab63fb6604b83
+  BTAssessmentSDK: a4d7591e8b7cb4c262900fb7aca56b551477e7c2
 
-PODFILE CHECKSUM: c25092ffe29fe1e4375e28eafc878feb9df50dea
+PODFILE CHECKSUM: 6b32d87bb8a9442a6d7584fdfdcee7894948cdca
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.3

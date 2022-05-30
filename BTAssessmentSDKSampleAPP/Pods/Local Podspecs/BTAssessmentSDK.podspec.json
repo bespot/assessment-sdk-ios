@@ -1,6 +1,6 @@
 {
   "name": "BTAssessmentSDK",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "Bespot Assessment framework for interview process.",
   "description": "We made this framework for interview purpose",
   "homepage": "https://github.com/bespot/assessment-sdk-ios.git",
@@ -16,6 +16,6 @@
   },
   "source": {
     "git": "https://github.com/bespot/assessment-sdk-ios.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   }
 }
