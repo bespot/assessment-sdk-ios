@@ -1,0 +1,69 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BTAssessmentSDK
+@_exported import BTAssessmentSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+public struct BTError : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension BTAssessmentSDK.BTError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public enum BTConfigurationError : Swift.String {
+  case invalidCredentials
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol BTConfigurationDelegate {
+  func didConfigure(success: Swift.Bool)
+  func didFailConfigure(error: BTAssessmentSDK.BTConfigurationError)
+}
+extension BTAssessmentSDK.BTConfigurationDelegate {
+  public func didConfigure(success: Swift.Bool)
+  public func didFailConfigure(error: BTAssessmentSDK.BTConfigurationError)
+}
+public protocol BTInOutDelegate {
+  func didUpdateResult(status: BTAssessmentSDK.BTStatus)
+  func didFailUpdate(error: BTAssessmentSDK.BTError)
+}
+extension BTAssessmentSDK.BTInOutDelegate {
+  public func didFailUpdate(error: BTAssessmentSDK.BTError)
+}
+@objc @_inheritsConvenienceInitializers open class BTAssessmentSDK : ObjectiveC.NSObject {
+  public static let shared: BTAssessmentSDK.BTAssessmentSDK
+  public var inOutDelegate: BTAssessmentSDK.BTInOutDelegate?
+  public var configurationDelegate: BTAssessmentSDK.BTConfigurationDelegate?
+  public func configure(applicationId: Swift.String, applicationSecret: Swift.String)
+  public func subscribe()
+  public func unsubscribe()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum BTStatusType : Swift.String, Swift.Decodable {
+  case inside
+  case outside
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct BTStatus : Swift.Decodable {
+  public let status: BTAssessmentSDK.BTStatusType
+  public let statusDescription: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
+extension BTAssessmentSDK.BTConfigurationError : Swift.Equatable {}
+extension BTAssessmentSDK.BTConfigurationError : Swift.Hashable {}
+extension BTAssessmentSDK.BTConfigurationError : Swift.RawRepresentable {}
+extension BTAssessmentSDK.BTStatusType : Swift.Equatable {}
+extension BTAssessmentSDK.BTStatusType : Swift.Hashable {}
+extension BTAssessmentSDK.BTStatusType : Swift.RawRepresentable {}
