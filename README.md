@@ -32,7 +32,7 @@ target '[Your app]' do
   user_frameworks!
 
   # BTAssessmentSDK framework
-  pod 'BTAssessmentSDK', :git => 'https://github.com/bespot/assessment-sdk-ios', :tag => '1.0.2'
+  pod 'BTAssessmentSDK', :git => 'https://github.com/bespot/assessment-sdk-ios', :tag => '1.0.3'
 
   # Other Cocoapods libraries/frameworks you may use...
 
